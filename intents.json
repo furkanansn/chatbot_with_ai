@@ -1,0 +1,24 @@
+{"intents": [
+        {"tag": "selamlama",
+         "patterns": ["Merhabalar", "Selamlar", "Nasılsın", "Naber", "Selam","Günaydın"],
+         "responses": ["Merhabalar :)", "Seni gördüğüme sevindim", "Nasıl yardımcı olabilirim"],
+         "context_set": ""
+        },
+        {"tag": "ayrılma",
+         "patterns": ["by", "görüşürüz", "tekrar görüşmek üzere", "ben gidiyorum", "bay bay"],
+         "responses": ["görüşürüz:(", "tekrar konuşmak üzere", "bay bay"],
+         "context_set": ""
+        },
+        {"tag": "bilgi",
+         "patterns": ["Yapay zeka nedir", "Makine öğrenmesini anlatabilir misin","Derin öğrenme nedir"],
+          "responses": [ "Matematiksel ve istatistiksel yöntemler kullanarak mevcut verilerden çıkarımlar yapmayı sağlayan bir metod","makinelerin dünyayı ele geçirme planları"],
+         "context_set": ""
+        },
+        {"tag": "learn",
+         "patterns": ["Veri Bilimini nasıl öğrenebilirim", "Yapay zeka öğrenmeye nereden başlayabilirim", "Derin Öğrenme içi hangi kitaplar okunmalı"],
+         "responses": ["Online kurslar ile öğrenebilirsiniz","Deep Learning with python kitabını okuyabilirsiniz"],
+         "context_set": ""
+        }
+
+ ]
+}
